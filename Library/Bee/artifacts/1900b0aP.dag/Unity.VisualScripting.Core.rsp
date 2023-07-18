@@ -112,8 +112,8 @@
 -define:MODULE_PHYSICS_2D_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/lavaa/unityProj/My project/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"C:/Users/lavaa/unityProj/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/lavaa/unityProj/My project Rostov hasan/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"C:/Users/lavaa/unityProj/My project Rostov hasan/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"E:/Unity/2021.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"E:/Unity/2021.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"E:/Unity/2021.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"

@@ -1,9 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CameraContoller
+    - CameraControlV2
     - OptionMenu
     - PausedMenu
+    - PausedOptionMenue
     - PlayerMovment
     - StartMenu
     Unity.Rider.Editor.dll:
@@ -14,6 +15,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -78,11 +81,20 @@ ScriptsOnlyBuild:
     fullTypeName: StartMenu
     methodName: Options
   - assembly: Assembly-CSharp
+    fullTypeName: PausedOptionMenue
+    methodName: FullScreen
+  - assembly: Assembly-CSharp
     fullTypeName: PausedMenu
     methodName: Play
   - assembly: Assembly-CSharp
+    fullTypeName: PausedOptionMenue
+    methodName: QuitToMenue
+  - assembly: Assembly-CSharp
     fullTypeName: PausedMenu
     methodName: MainMenueButton
+  - assembly: Assembly-CSharp
+    fullTypeName: PausedMenu
+    methodName: Options
   sceneClasses:
     Assets/Scenes/Main Menu.unity:
     - Class: 1
@@ -195,9 +207,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 4224}
+      Script: {instanceID: 5138}
     - Class: 114
       Script: {instanceID: 5286}
+    - Class: 114
+      Script: {instanceID: 5564}
     - Class: 114
       Script: {instanceID: 5900}
     - Class: 114
@@ -205,9 +219,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6124}
     - Class: 114
+      Script: {instanceID: 6306}
+    - Class: 114
       Script: {instanceID: 6400}
     - Class: 114
       Script: {instanceID: 7122}
+    - Class: 114
+      Script: {instanceID: 24846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -543,12 +561,6 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: b127c4942bc87b21319580ffe7896115
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: banMovment
-  - hash:
-      serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -601,12 +613,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 3b64ca52bd532f2ef3ebef3256d0115d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraContoller
   - hash:
       serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
@@ -801,7 +807,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 7c8409efb0154b69e40a20f7af3fbf31
+      Hash: 6a7c0b883d3c68d72cc57d2cd2121633
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PausedMenu
@@ -1045,8 +1051,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 19a57159c0c4cd34d6474ca9536e4c27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PausedOptionMenue
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/MainGame.unity
-  playerPath: C:/Users/lavaa/unityProj/Hasan Rostov Simulator.exe
+  playerPath: "D:/\u0441\u0430\u043C\u0430\u044F \u043F\u0438\u0437\u0434\u0430\u0442\u0430\u044F
+    \u0438\u0433\u0440\u0430/Hasan Rostov Simulator.exe"

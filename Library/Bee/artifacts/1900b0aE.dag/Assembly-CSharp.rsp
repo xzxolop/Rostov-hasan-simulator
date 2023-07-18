@@ -352,13 +352,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/scripts/CameraControlV2.cs"
-"Assets/scripts/oldScripts/banMovment.cs"
-"Assets/scripts/oldScripts/CameraContoller.cs"
-"Assets/scripts/OptionMenu.cs"
-"Assets/scripts/PausedMenu.cs"
-"Assets/scripts/PlayerMovment.cs"
-"Assets/scripts/StartMenu.cs"
+"Assets/scripts/GameScripts/CameraControlV2.cs"
+"Assets/scripts/GameScripts/PausedMenu.cs"
+"Assets/scripts/GameScripts/PausedOptionMenue.cs"
+"Assets/scripts/GameScripts/PlayerMovment.cs"
+"Assets/scripts/MainMenueScripts/OptionMenu.cs"
+"Assets/scripts/MainMenueScripts/StartMenu.cs"
 -langversion:9.0
 
 /deterministic

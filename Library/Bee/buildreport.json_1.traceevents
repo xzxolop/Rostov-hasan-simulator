@@ -1,547 +1,547 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1689368137749515, "dur": 3330000, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368137749785, "dur": 13002, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368137762790, "dur": 31561, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368137794353, "dur": 2511708, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368140306063, "dur": 762038, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368141068103, "dur": 11412, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368141079993, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705767095951, "dur": 2991737, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705767096209, "dur": 13330, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705767109542, "dur": 47229, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705767156773, "dur": 2412118, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705769568892, "dur": 505489, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705770074384, "dur": 13303, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705770088424, "dur": 21, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1689368140045163, "dur": 248192, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1689368140046250, "dur": 46454, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1689368140276502, "dur": 4773, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1689368140281278, "dur": 12069, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1689368140282065, "dur": 10435, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1689368140298289, "dur": 1429, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1689368140297461, "dur": 2281, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368141080154, "dur": 2712, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689705769250157, "dur": 298326, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689705769251219, "dur": 48702, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689705769530576, "dur": 5576, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689705769536155, "dur": 12319, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689705769536922, "dur": 10691, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689705769553476, "dur": 1439, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689705769552637, "dur": 2302, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705770088620, "dur": 244, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1689368140352522, "dur":1165, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368140353693, "dur":110, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1689368140353815, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1689368140353843, "dur":429, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1689368140354293, "dur":719, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368140355012, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141057708, "dur":235, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141057943, "dur":120, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058063, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058066, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058089, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058093, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058101, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058104, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058111, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058113, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058119, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058121, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058128, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058130, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058136, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058138, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058145, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058147, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058153, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058155, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058162, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058164, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058170, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058172, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058179, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058189, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141058208, "dur":2900, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1689368140354570, "dur":452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140355025, "dur":4581, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140359619, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1689368140359621, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140359691, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1689368140359696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140360625, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1689368140363410, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1689368140363449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140363930, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1689368140365879, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1689368140365920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140365928, "dur":100083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1689368140466034, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140466254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140466598, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140467964, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140468021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140468027, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140470020, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140470081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140470088, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140472369, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140472431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140472436, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140474351, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140474405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140474410, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140476131, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140476190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140476197, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140478230, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140478287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140478291, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140480543, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140480595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140480601, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140483602, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140483660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140483666, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140485702, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140485762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140485771, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140488582, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140488639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140488646, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140491052, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140491131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140491138, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140493548, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140493716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140493722, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140495466, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140495517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140495523, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140497959, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140498017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140498023, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140500097, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140500204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140500212, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140502225, "dur":126969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140629198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140629204, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1689368140631294, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1689368140631367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140631376, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1689368140633915, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1689368140633983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1689368140633990, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1689368140637024, "dur":420682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1689368140354628, "dur":408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1689368140355036, "dur":4576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1689368140359619, "dur":28228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1689368140387852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1689368140388124, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1689368140388979, "dur":500951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1689368140889935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1689368140890050, "dur":5058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1689368140895128, "dur":162576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140354714, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140355052, "dur":4564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140359620, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1689368140359746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140361981, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1689368140364752, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1689368140364783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140364841, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1689368140365994, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1689368140366022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140366027, "dur":17385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1689368140383429, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1689368140383462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140383469, "dur":31422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1689368140414909, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator.exe" }}
-,{ "pid":12345, "tid":3, "ts":1689368140414984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140414989, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator.exe" }}
-,{ "pid":12345, "tid":3, "ts":1689368140416459, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1689368140416505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140416807, "dur":101674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1689368140518504, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1689368140519536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140519545, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1689368140520700, "dur":67418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1689368140588125, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140588137, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1689368140589847, "dur":57811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1689368140647664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1689368140647672, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1689368140648844, "dur":408867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1689368140354621, "dur":409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1689368140355030, "dur":4585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1689368140359620, "dur":42150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1689368140401773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1689368140401787, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1689368140402779, "dur":640174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1689368141042958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1689368141042964, "dur":14688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1689368141057669, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1689368141057671, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140354666, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140355038, "dur":4591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140359632, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1689368140360162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140363238, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1689368140364858, "dur":111319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1689368140476181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140476189, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1689368140477942, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140477997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140478003, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140480358, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140480419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140480425, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140483509, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140483568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140483572, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140485846, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140485916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140485924, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140488463, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140488586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140488595, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140490910, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140490969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140490977, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140493221, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140493266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140493273, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140495008, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140495057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140495063, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140497364, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140497425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140497431, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140499469, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140499512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140499517, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140501550, "dur":134192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140635747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1689368140635754, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1689368140638164, "dur":419537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140354698, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140355045, "dur":4568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140359619, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1689368140359695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140362064, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1689368140364589, "dur":45315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1689368140409908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140409916, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1689368140410837, "dur":132771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1689368140543613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140543622, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1689368140545730, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":6, "ts":1689368140546624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140546633, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":6, "ts":1689368140547803, "dur":72952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1689368140620761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140620771, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1689368140622953, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1689368140623006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140623013, "dur":5314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1689368140628389, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1689368140628450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140628488, "dur":5919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1689368140634459, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1689368140634513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1689368140634518, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1689368140637830, "dur":419872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140354740, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140355056, "dur":4568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140359624, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1689368140359718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140362205, "dur":164870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1689368140527095, "dur":1173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140528272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140528281, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140529702, "dur":51746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140581456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140581466, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140583062, "dur":2684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140585756, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140585769, "dur":6561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140592390, "dur":1073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140593468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140593478, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140595097, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140595151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140595158, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140596968, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140597059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140597066, "dur":4623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140601750, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140601810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140601818, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140604494, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140604611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140604624, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140607451, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140607522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140607531, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140610202, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140610277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140610285, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140613270, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140613332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140613341, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140616393, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140616454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140616462, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140619225, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140619286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140619294, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140621832, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140621883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140621889, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":7, "ts":1689368140624840, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":7, "ts":1689368140625179, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140626716, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":7, "ts":1689368140628838, "dur":982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":7, "ts":1689368140629826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140629836, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":7, "ts":1689368140631926, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1689368140631976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140631982, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1689368140636300, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1689368140636452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1689368140636458, "dur":3510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1689368140640021, "dur":417687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140354772, "dur":287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140355059, "dur":4561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140359625, "dur":118305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1689368140477934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140477953, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1689368140479947, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140480009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140480016, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140482906, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140482992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140483000, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140485213, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140485286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140485430, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140487498, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140487544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140487549, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140489968, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140490045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140490052, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140491997, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140492038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140492043, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140494363, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140494452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140494459, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140496509, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140496589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140496594, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140499431, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140499499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140499506, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140501230, "dur":55315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140556551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140556559, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140557775, "dur":1096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140558876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140558884, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140560379, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140561389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140561399, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140562827, "dur":55912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140618744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140618751, "dur":4419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140623231, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140624286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140624295, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1689368140625995, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":8, "ts":1689368140626045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140626050, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":8, "ts":1689368140628454, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1689368140628510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140628516, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1689368140631978, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1689368140632042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140632049, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1689368140635445, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1689368140635493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1689368140635498, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1689368140638347, "dur":419352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140354804, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140355064, "dur":4559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140359623, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1689368140359761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140362217, "dur":105189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1689368140467424, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140467497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140467502, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140469649, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140469708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140469715, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140472008, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140472099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140472109, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140473911, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140473978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140473986, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140475626, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140475692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140475699, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140477842, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140477911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140477919, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140480176, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140480222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140480227, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140482287, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140482401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140482410, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140484049, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140484108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140484114, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140486469, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140486535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140486541, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140489006, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140489070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140489077, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140491820, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140491979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140492004, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140494560, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140494632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140494638, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140496698, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140496757, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140496769, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140498785, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140498841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140498850, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140500802, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140500858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140500864, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140502652, "dur":93872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140596529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140596540, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140598106, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140598166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140598176, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140599578, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140599631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140599639, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140601076, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140601129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140601136, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140602982, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140603050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140603057, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140606587, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140606643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140606652, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140608202, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140608260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140608267, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140610430, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140610486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140610493, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140616005, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140616063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140616071, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140617593, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140617645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140617652, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140619441, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140619495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140619500, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140623019, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140623072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140623078, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1689368140625703, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1689368140625758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140626635, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1689368140628455, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1689368140628616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140628621, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1689368140630419, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1689368140630475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140630481, "dur":4449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1689368140635031, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1689368140635132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1689368140635138, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1689368140638288, "dur":419415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1689368140354844, "dur":226, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1689368140355071, "dur":4554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1689368140359629, "dur":26006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1689368140385638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1689368140385657, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1689368140386586, "dur":329738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1689368140716330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1689368140716618, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1689368140717843, "dur":339884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140354875, "dur":203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140355078, "dur":4558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140359637, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1689368140360141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140362743, "dur":104160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1689368140466918, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140466966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140467039, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140469113, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140469281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140469305, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140471764, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140471828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140471837, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140473993, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140474067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140474072, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140475747, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140475803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140475810, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140477906, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140477965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140477971, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140480305, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140480380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140480386, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140483015, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140483070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140483077, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140484673, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140484744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140484750, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140486739, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140486801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140486807, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140489268, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140489329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140489337, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140491729, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140491789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140491795, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140493911, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140493997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140494004, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140496060, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140496113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140496119, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140497924, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140497992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140497999, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140500248, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140500300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140500306, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140502410, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140502467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140502476, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140503870, "dur":235666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140739541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1689368140739548, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":11, "ts":1689368140740794, "dur":316930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1689368140354922, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1689368140355088, "dur":4546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1689368140359634, "dur":118395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1689368140478032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1689368140478047, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1689368140480120, "dur":200107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1689368140680232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1689368140680240, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lavaa/unityProj/Hasan Rostov Simulator_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1689368140681452, "dur":376261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1689368141062713, "dur":2038, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1689368141082932, "dur": 756, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1689368141079982, "dur": 3727, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1689705769613087, "dur":1494, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705769614587, "dur":111, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689705769614707, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689705769614740, "dur":418, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689705769615179, "dur":807, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705769615986, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770052576, "dur":209, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770052785, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770052805, "dur":54, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770052859, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770052875, "dur":77, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770052952, "dur":107, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053059, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053066, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053080, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053083, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053095, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053098, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053110, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053113, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053128, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053130, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053141, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053143, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053154, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053157, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053168, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053171, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053182, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053185, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053195, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053219, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770053224, "dur":4957, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689705769615594, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769616000, "dur":4719, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769620738, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689705769620739, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769620812, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689705769620816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769623396, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689705769624504, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689705769624536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769624837, "dur":11774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689705769636630, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1689705769636668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769636678, "dur":157556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1689705769794266, "dur":120271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689705769914541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769914546, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689705769916008, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689705769916144, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769916154, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689705769919257, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689705769919315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769919321, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689705769922528, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689705769922578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689705769922585, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689705769925176, "dur":127374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769615634, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769616011, "dur":4715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769620736, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689705769620821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769623879, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689705769625936, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689705769625964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769625969, "dur":10828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689705769636817, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689705769636856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769637121, "dur":206196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689705769843335, "dur":70482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689705769913820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769913850, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689705769915123, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689705769915183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769915189, "dur":4696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689705769919955, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1689705769920394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689705769920400, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1689705769924362, "dur":128219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769615679, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769616023, "dur":4711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769620741, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689705769620810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769622160, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689705769625278, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689705769625307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769625333, "dur":190150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689705769815506, "dur":1240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769816754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769816769, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769818021, "dur":60046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769878074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769878083, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769879208, "dur":27580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769906794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769906805, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769908146, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769908285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769908294, "dur":7674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769916022, "dur":2534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769918563, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769918580, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689705769920508, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689705769920555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689705769920559, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689705769924741, "dur":127831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769615618, "dur":386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769616004, "dur":4721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769620735, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689705769620815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769623020, "dur":155562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689705769778596, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769778700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769778705, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769779734, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769779826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769779831, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769781047, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769781143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769781150, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769782284, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769782379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769782385, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769783301, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769783398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769783404, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769784387, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769784488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769784494, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769786201, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769786281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769786285, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769787411, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769787484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769787490, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769788901, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769789009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769789015, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769790007, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769790151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769790158, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769791574, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769791684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769791690, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769792807, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769792889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769792894, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769794385, "dur":115497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769909888, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769909903, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769913299, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769913453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769913461, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689705769916977, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689705769917033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769917040, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689705769919317, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689705769919365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769919370, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689705769920907, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689705769920955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689705769920959, "dur":4626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689705769925687, "dur":126867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769615667, "dur":350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769616017, "dur":4726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769620744, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1689705769621118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769625100, "dur":11567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1689705769636687, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1689705769636725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769636732, "dur":189485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1689705769826240, "dur":1334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769827579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769827587, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769828763, "dur":42709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769871481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769871492, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769872839, "dur":1270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769874116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769874126, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769875467, "dur":38302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769913773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769913779, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769915080, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769915206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769915213, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689705769918756, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1689705769918920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769918925, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1689705769920450, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1689705769920506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769920512, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1689705769923393, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1689705769923562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689705769923569, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1689705769925278, "dur":127298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689705769615708, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689705769616028, "dur":4702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689705769620735, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1689705769620853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689705769624619, "dur":182255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1689705769806899, "dur":244599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689705770051505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689705770051514, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689705770052518, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1689705770052520, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769615738, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769616034, "dur":4702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769620736, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1689705769620827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769624180, "dur":12376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1689705769636577, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1689705769636622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769636630, "dur":56370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1689705769693018, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator.exe" }}
+,{ "pid":12345, "tid":7, "ts":1689705769693142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769693150, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator.exe" }}
+,{ "pid":12345, "tid":7, "ts":1689705769694517, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769694611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769694768, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769695859, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769695939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769695952, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769696781, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769696875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769696880, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769697696, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769697768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769697772, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769698567, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769698652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769698657, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769699684, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769699764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769699768, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769700893, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769700985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769701010, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769701916, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769702000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769702005, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769702875, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769702960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769702965, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769703799, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769703887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769703892, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769704738, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769704805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769704809, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769705645, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769705729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769705735, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769706568, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769706643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769706649, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769707439, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769707531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769707537, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769708299, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769708365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769708369, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769709226, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769709345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769709351, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769710214, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769710281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769710285, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769711342, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769711409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769711413, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769712171, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769712250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769712254, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769713065, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769713137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769713142, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769714029, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769714101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769714106, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769717327, "dur":110377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769827707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769827713, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769832218, "dur":32894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769865119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769865128, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769866393, "dur":1473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769867873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769867884, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769868806, "dur":41456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769910267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769910273, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769913698, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769913800, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769913805, "dur":4817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689705769918694, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1689705769918758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769918764, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1689705769921168, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1689705769921231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689705769921236, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1689705769924953, "dur":127599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769615769, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769616040, "dur":4698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769620738, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1689705769620809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769622132, "dur":36197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1689705769658342, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1689705769658377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769658381, "dur":96534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1689705769754930, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769755042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769755047, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769755919, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769755985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769755990, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769756967, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769757118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769757124, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769758081, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769758168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769758173, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769759475, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769759543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769759548, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769760471, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769760550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769760555, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769761463, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769761531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769761535, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769762679, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769762784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769762789, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769763647, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769763714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769763719, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769764642, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769764737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769764743, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769765601, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769765677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769765681, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769766548, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769766617, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769766624, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769767381, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769767448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769767453, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769768269, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769768338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769768342, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769769161, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769769256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769769262, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769770183, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769770256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769770261, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769771065, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769771132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769771136, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769772477, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769772569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769772574, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769774586, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769774670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769774676, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769775592, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769775664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769775687, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769776948, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769777016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769777020, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769777823, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769777888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769777892, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769778862, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769778936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769778940, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769779774, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769779846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769779869, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769781358, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769781427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769781433, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769782447, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769782557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769782562, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769783462, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769783570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769783575, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769784476, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769784831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769784836, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769786224, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769786324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769786330, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769790045, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769790141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769790149, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769791653, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769791751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769791755, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769793812, "dur":57639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769851458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769851467, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769854645, "dur":29630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769884283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769884293, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769885502, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769885559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769885594, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769886768, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769886819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769886826, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769890619, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769890676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769890683, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769891719, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769891764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769891771, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769892699, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769892751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769892758, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769894036, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769894088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769894095, "dur":3747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769897929, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769898073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769898081, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769899995, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769900134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769900143, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769901931, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769902051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769902059, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769904980, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769905110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769905118, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769907116, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769907170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769907177, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769909972, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769910077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769910084, "dur":5938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689705769916078, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1689705769916232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769916499, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1689705769917866, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1689705769917919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689705769917926, "dur":6920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1689705769924943, "dur":127605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689705769615808, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689705769616046, "dur":4691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689705769620738, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1689705769620811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689705769622495, "dur":13557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1689705769636066, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1689705769636115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689705769636123, "dur":57030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1689705769693170, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1689705769693206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689705769693622, "dur":350966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1689705770044610, "dur":7980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769615860, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769616052, "dur":4688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769620741, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1689705769621227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769632701, "dur":157418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1689705769790134, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769790218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769790223, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769791575, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769791717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769791724, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769793616, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769793723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769793730, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769795483, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769795574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769795580, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769798452, "dur":102340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769900797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769900805, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769902945, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769903062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769903070, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769906662, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769906792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769906799, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769909943, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769910086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769910092, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769913241, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769913375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769913383, "dur":3272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689705769916722, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1689705769916770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769916790, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1689705769918815, "dur":5904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /Hasan Rostov Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1689705769924724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689705769924732, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /Hasan Rostov Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1689705769926020, "dur":126580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689705769615911, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689705769616061, "dur":4684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689705769620745, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1689705769621259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689705769633084, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1689705769636914, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689705769636966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689705769637064, "dur":395886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689705770032969, "dur":19611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689705769615958, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689705769616068, "dur":4697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689705769620765, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1689705769621188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689705769632265, "dur":11667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1689705769643946, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/  /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689705769643982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689705769643986, "dur":318708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/  /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689705769962714, "dur":89860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689705770059969, "dur":2071, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1689705770088941, "dur": 992, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689705770088409, "dur": 1551, "ph": "X", "name": "Write chrome-trace events", "args": {} },

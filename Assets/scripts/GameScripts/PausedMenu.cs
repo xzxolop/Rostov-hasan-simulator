@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class PausedMenu : MonoBehaviour
 {
     public static bool Paused = false;
-    public GameObject PauseMenuCanvas;
+    public GameObject PauseMenu;
+    public GameObject PauseOptionMenu;
+
 
     void Start()
     {
@@ -29,7 +31,7 @@ public class PausedMenu : MonoBehaviour
     }
     void Stop()
     {
-        PauseMenuCanvas.SetActive(true);
+        PauseMenu.SetActive(true);
         Time.timeScale = 0f;
         Paused = true;
         Cursor.lockState = CursorLockMode.Confined;
@@ -38,10 +40,9 @@ public class PausedMenu : MonoBehaviour
 
     public void Play()
     {
-        PauseMenuCanvas.SetActive(false);
+        PauseMenu.SetActive(false);
         Time.timeScale = 1f;
         Paused = false;
-        //Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
@@ -49,4 +50,11 @@ public class PausedMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+
+    public void Options()
+    {
+        PauseMenu.SetActive(false );
+        PauseOptionMenu.SetActive(true);
+    }
+
 }

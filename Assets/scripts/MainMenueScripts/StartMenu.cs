@@ -21,9 +21,5 @@ public class StartMenu : MonoBehaviour
         optionMenu.SetActive(true);
     }
 
-    public void QuitToMenu()
-    {
-        startMenu.SetActive(true);
-        optionMenu.SetActive(false);
-    }
+
 }
