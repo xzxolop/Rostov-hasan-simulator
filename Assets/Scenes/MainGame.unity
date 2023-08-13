@@ -328,7 +328,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1807428150435503311, guid: 8f7c9bb8aa68a23489bb125dbf8dbe3a, type: 3}
       propertyPath: m_Name
-      value: Tree 1
+      value: Big Tree
       objectReference: {fileID: 0}
     - target: {fileID: 1807428150435503311, guid: 8f7c9bb8aa68a23489bb125dbf8dbe3a, type: 3}
       propertyPath: m_TagString
@@ -673,7 +673,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: -28.199997, y: -28.899994}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &461642657
 MonoBehaviour:
@@ -853,7 +853,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 45, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639976966
 MonoBehaviour:
@@ -875,8 +875,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1137,7 +1137,7 @@ GameObject:
   - component: {fileID: 793144200}
   - component: {fileID: 793144201}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1567,7 +1567,7 @@ GameObject:
   - component: {fileID: 952996002}
   - component: {fileID: 952996001}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Big Sphere
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1686,7 +1686,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &963194225
 GameObject:
@@ -2739,7 +2739,7 @@ GameObject:
   - component: {fileID: 2109435624}
   - component: {fileID: 2109435623}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Mini Sphere
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -59,9 +59,9 @@
     <Compile Include="Assets\scripts\MainMenueScripts\OptionMenu.cs" />
     <Compile Include="Assets\scripts\MainMenueScripts\StartMenu.cs" />
     <Compile Include="Assets\scripts\GameScripts\PausedMenu.cs" />
+    <Compile Include="Assets\scripts\GameScripts\PausedOptionMenue.cs" />
     <Compile Include="Assets\scripts\GameScripts\CameraControlV2.cs" />
     <Compile Include="Assets\scripts\GameScripts\PlayerMovment.cs" />
-    <Compile Include="Assets\scripts\GameScripts\PausedOptionMenue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
